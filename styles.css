@@ -11,25 +11,18 @@ header {
     grid-area:h;
     position: relative;
     width: 100%;
-    height: 100vh;     
-    overflow: hidden;
+    height: 200px;
+    background-image: url('kepek/hatter.png');
+    background-size: cover;
+    background-position: center;
 }
 
-
-header .hatter {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 header .title {
-    font-size: 48px;
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100px;
 }
 nav {
     grid-area:n;
