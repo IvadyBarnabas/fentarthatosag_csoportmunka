@@ -51,3 +51,71 @@ footer{
 .oldalnav{
     position: fixed;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    background-image: url(kepek/hatter.webp);
+}
+
+header, footer {
+    background: #bce5f8;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background: #20ee0536;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+main {
+    background: #20ee0536;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+}
+
+section {
+    background: #ffffff3a;
+    padding: 10px;
+}
+
+aside {
+    background: #20ee0536;
+    padding: 10px;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.text, .image {
+    width: 100%;
+}
+
+.img {
+    border: 50%;
+}
+
+.container2 {
+    background: #ffffff3a;
+    padding: 10px;
+}
