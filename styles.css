@@ -44,3 +44,35 @@ footer{
 .oldalnav{
     position: fixed;
 }
+.intro {
+    font-size: 1.1rem;
+    color: #3a5a5a;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .facts {
+    margin-top: 2rem;
+  }
+  
+  .facts h2 {
+    font-size: 1.5rem;
+    color: #3aafa9;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3aafa9;
+    padding-bottom: 0.5rem;
+  }
+  
+  .facts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .facts li {
+    background-color: #def2f1;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem 0;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #1c3a3e;
+  }
