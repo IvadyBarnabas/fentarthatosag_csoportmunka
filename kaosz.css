@@ -44,3 +44,30 @@ footer{
 .oldalnav{
     position: fixed;
 }
+#katasztrofak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+.kataszrofa{
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #15ff00;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    padding-bottom: 5px;
+    animation: zoomIn 1s ease-in-out;
+    max-width: 75%;
+}
+.kataszrofanev{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.kataszrofa img {
+    width: 100%;
+    border-radius: 15px;
+}

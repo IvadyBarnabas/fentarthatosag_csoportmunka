@@ -16,6 +16,7 @@ main {
 }
 
 header {
+  grid-area:h;
   background-color: #33333370;
   position: relative;
   width: 100%;
