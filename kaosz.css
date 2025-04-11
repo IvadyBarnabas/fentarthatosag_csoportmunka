@@ -71,3 +71,15 @@ footer{
     width: 100%;
     border-radius: 15px;
 }
+#sponsor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    width: 100%;
+}
+#sponsor img{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
