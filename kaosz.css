@@ -93,7 +93,7 @@ footer{
     justify-items: center;
 }
 .kataszrofa{
-    background-color: #1a1a1a;
+    background-color: #215324;
     border-radius: 15px;
     box-shadow: 0 0 15px #15ff00;
     transition: transform 0.3s ease-in-out;
@@ -105,7 +105,7 @@ footer{
 .kataszrofanev{
     font-size: 15px;
     font-weight: bold;
-    color: white;
+    color: #15ff00;
     margin-top: 10px;
     text-align: center;
 }
