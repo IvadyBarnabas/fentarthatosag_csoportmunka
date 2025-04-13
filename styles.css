@@ -19,21 +19,24 @@ main {
 }
  
 header {
-  grid-area:h;
   background-image: url('kepek/footer.png');
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 200px;                           
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);                         
 }
 header h1{
-  text-align: center;
   color: #1bd646;
   text-shadow: 0 0 10px rgb(9, 255, 0);
-  font-size: 50px;
+  font-size: 3rem;
+  margin: 50px;
+  text-align: center;
 }
 .header-container {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
 }
 article {
     grid-area:a;
@@ -49,60 +52,65 @@ article {
 }
 
 footer{
-    grid-area: f;
-    color: #1bd646;
-    text-align: center;
-    background-image: url('kepek/footer.png');
-    width: 100%;
-    font-size: 20px;
+  grid-area: f;
+  color: #1bd646;
+  text-align: center;
+  background-image: url('kepek/footer.png');
+  width: 100%;
+  font-size: 20px;
 }
 .suli{
-    width:300;
-    height:350;
-    border:0;
-    border-radius: 10px;
+  width:300;
+  height:350;
+  border:0;
+  border-radius: 10px;
 }
 .card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .card h2{
   border-bottom: 2px solid #215324;
 }
 button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 button:hover {
-    background-color: #218838;
+  background-color: #218838;
 }
 #sponsor{
-    display: grid;
-    grid-template-columns:repeat(4, auto);
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: center;
-    width: 300px;
-    margin: auto;
+  display: grid;
+  grid-template-columns:repeat(4, auto);
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
 }
 #sponsor img{
-    height: 50px;
-    width: auto;
-    display: block;
-    margin: 0;
+  height: 50px;
+  width: auto;
+  display: block;
+  margin: 0;
 }
 @media screen and (max-width: 600px) {
   article {
       grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1000px) {
+  article {
+      padding: 10px;
   }
 }
