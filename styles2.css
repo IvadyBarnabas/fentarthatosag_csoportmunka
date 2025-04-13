@@ -1,6 +1,9 @@
 body{
   color: #215324;
   font-weight: bold;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -13,68 +16,55 @@ main {
                         "f f f";
     
     margin: auto;
-    background-color: rgb(241, 241, 241);  
+    background-color: transparent;
 }
 
 header {
-  grid-area:h;
-  background-color: #33333370;
-  position: relative;
+  background-image: url('kepek/footer.png');
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 300px;                
-  overflow: hidden;             
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
-header .hatter {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;            
-  z-index: -1;                  
-}
-
-header .title {
-  position: relative;
-  z-index: 1;                
-}
-
 .header-container {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  justify-items: start;
-  align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: auto;
+  text-align: center;
 }
+
+header h1 {
+  color: #1bd646;
+  text-shadow: 0 0 10px rgb(9, 255, 0);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+
 #menu {
+  grid-area:n;
+  text-align: center;
   display: grid;
-  max-width: 70%;
+  max-width: 90%;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 5px;
+  gap: 10px;
+  padding: 10px;
 }
 
 #menu a {
   text-decoration: none;
   color: #1bd646;
+  font-size: 1.1rem;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 #menu a:hover {
   background-color: #15ff00;
-  box-shadow: 0 0 10px rgba(9, 255, 0, 0.5);
-  color:#215324;
-  padding: 8px 12px;
-  border-radius: 8px;
-}
-
-#menu {
-    grid-area:n;
-    text-align: center;
+  box-shadow: 0 0 12px rgba(9, 255, 0, 0.6);
+  color: #215324;
 }
 
 article {
@@ -83,6 +73,7 @@ article {
     grid-template-columns: 1fr;
     gap: 20px;
     max-width: 700px;
+    margin: auto;
 }
 
 .jobb {
@@ -90,8 +81,12 @@ article {
 }
 
 footer{
-    grid-area: f;
-    text-align: center;
+  grid-area: f;
+  color: #1bd646;
+  text-align: center;
+  background-image: url('kepek/footer.png');
+  width: 100%;
+  font-size: 20px;
 }
 
 .suli{
@@ -151,15 +146,16 @@ h2{
 }
 #sponsor{
   display: grid;
-  grid-template-columns:repeat(4, 1fr);
-  gap: 0px;
+  grid-template-columns:repeat(4, auto);
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
   width: 300px;
   margin: auto;
-  position: center;
 }
 #sponsor img{
-  width: 50px;
-  height: auto;
+  height: 50px;
+  width: auto;
   display: block;
   margin: 0;
 }
