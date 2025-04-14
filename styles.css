@@ -19,6 +19,7 @@ main {
 }
  
 header {
+  grid-area:h;
   background-image: url('kepek/footer.png');
   background-size: cover;
   background-position: center;
