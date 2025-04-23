@@ -4,6 +4,8 @@ body {
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 header {
@@ -19,7 +21,7 @@ header {
 header h1 {
     color: #1bd646;
     text-shadow: 0 0 10px rgb(9, 255, 0);
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 50px;
     text-align: center;
 }
@@ -35,7 +37,7 @@ header h1 {
 #menu a {
     text-decoration: none;
     color: #1bd646;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     padding: 10px;
     border-radius: 8px;
@@ -53,6 +55,8 @@ header h1 {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .grid-item {
@@ -66,10 +70,21 @@ header h1 {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .text, .image {
     width: 100%;
+}
+
+.text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1.1rem;
 }
 
 .suli {
@@ -94,6 +109,11 @@ header h1 {
     width: auto;
     display: block;
     margin: 0;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
 }
 
 footer {
@@ -101,6 +121,6 @@ footer {
     text-align: center;
     background-image: url('kepek/footer.png');
     width: 100%;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 20px;
 }
