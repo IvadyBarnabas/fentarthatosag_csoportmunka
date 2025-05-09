@@ -80,10 +80,14 @@ article {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     padding: 20px;
     margin-bottom: 20px;
+    transition: all 0.3s ease;
   }
   .card h2{
     border-bottom: 2px solid #215324;
   }
+.card:hover{
+    transform: scale(1.05);
+}
 footer{
     grid-area: f;
     color: #1bd646;

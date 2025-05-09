@@ -138,6 +138,7 @@ h2{
 .content ul {
   list-style: none;
   padding: 0;
+  transition: transform 0.3s;
 }
   
 .content li {
@@ -146,6 +147,9 @@ h2{
   margin: 0.5rem 0;
   border-radius: 12px;
   transition: all 0.3s ease;
+}
+.content li:hover{
+  transform: scale(1.05);
 }
 
 #sponsor{
