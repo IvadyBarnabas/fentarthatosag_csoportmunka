@@ -88,9 +88,6 @@ footer{
   background-image: url('kepek/footer.png');
   width: 100%;
   font-size: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
 }
 
 .suli{
