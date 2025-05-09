@@ -71,7 +71,7 @@ header {
     background: #ffffff3a;
     padding: 10px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 .section-content {
