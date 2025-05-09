@@ -108,24 +108,28 @@ footer{
     justify-items: center;
 }
 
-.kataszrofa{
+.katasztrofa{
     background-color: #215324;
     border-radius: 15px;
     box-shadow: 0 0 15px #15ff00;
     position: relative;
     padding-bottom: 5px;
     max-width: 75%;
+    transition: transform 0.3s;
 }
-.kataszrofanev{
+.katasztrofanev{
     font-size: 15px;
     font-weight: bold;
     color: #15ff00;
     margin-top: 10px;
     text-align: center;
 }
-.kataszrofa img {
+.katasztrofa img {
     width: 100%;
     border-radius: 15px;
+}
+.katasztrofa:hover{
+    transform: scale(1.05);
 }
 
 #sponsor{
