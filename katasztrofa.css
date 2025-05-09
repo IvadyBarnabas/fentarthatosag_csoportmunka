@@ -128,3 +128,14 @@ footer{
     display: block;
     margin: 0;
 }
+
+h2 {
+    padding-left: 2.5%;
+}
+#konkretkatasztrofak {
+    padding-left: 5%;
+}
+
+#konkretkatasztrofak p {
+    padding-left: 5.5%;
+}
