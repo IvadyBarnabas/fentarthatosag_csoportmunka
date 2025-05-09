@@ -162,3 +162,13 @@ h2 {
 #konkretkatasztrofak p {
     padding-left: 5.5%;
 }
+@media screen and (max-width: 800px) {
+    article{
+      padding: 15px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .card:hover{
+        transform: scale(1.0);
+    }
+  }
