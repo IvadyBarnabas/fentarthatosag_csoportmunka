@@ -81,6 +81,7 @@ header h1 {
 .text h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    border-bottom: 2px solid #215324;
 }
 
 .text p {
