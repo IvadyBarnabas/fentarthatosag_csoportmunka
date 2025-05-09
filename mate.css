@@ -65,6 +65,11 @@ header h1{
 
 article {
     grid-area:a;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;  
 }
 .jobb {
     grid-area:j;
@@ -102,14 +107,13 @@ footer{
     gap: 20px;
     justify-items: center;
 }
+
 .kataszrofa{
     background-color: #215324;
     border-radius: 15px;
     box-shadow: 0 0 15px #15ff00;
-    transition: transform 0.3s ease-in-out;
     position: relative;
     padding-bottom: 5px;
-    animation: zoomIn 1s ease-in-out;
     max-width: 75%;
 }
 .kataszrofanev{
@@ -123,6 +127,7 @@ footer{
     width: 100%;
     border-radius: 15px;
 }
+
 #sponsor{
     display: grid;
     grid-template-columns:repeat(4, auto);
