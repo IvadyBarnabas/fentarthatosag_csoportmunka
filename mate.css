@@ -82,11 +82,11 @@ article {
     margin-bottom: 20px;
     transition: all 0.3s ease;
   }
-  .card h2{
+.card h2{
     border-bottom: 2px solid #215324;
-  }
+}
 .card:hover{
-    transform: scale(1.7);
+    transform: scale(1.4);
 }
 footer{
     grid-area: f;
