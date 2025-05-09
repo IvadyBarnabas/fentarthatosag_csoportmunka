@@ -96,11 +96,11 @@ header {
     font-size: 1.1rem;
 }
 
-.suli {
-    width: 300px;
-    height: 350px;
-    border: 0;
-    border-radius: 10px;
+.suli{
+  width:600;
+  height:450;
+  border:0;
+  border-radius: 10px;
 }
 
 #sponsor {
