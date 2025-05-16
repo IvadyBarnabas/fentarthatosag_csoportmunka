@@ -124,6 +124,7 @@ header h1 {
 
 img {
     border-radius: 10px;
+    width: 100%;
 }
 
 footer {
