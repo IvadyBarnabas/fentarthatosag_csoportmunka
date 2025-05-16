@@ -4,6 +4,7 @@ body{
   background-color: #f2f2f2;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 main {
@@ -92,8 +93,8 @@ footer{
 }
 
 .suli{
-  width:600;
-  height:450;
+  width:600px;
+  height:450px;
   border:0;
   border-radius: 10px;
 }
