@@ -105,13 +105,16 @@ button:hover {
   display: block;
   margin: 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   article {
       grid-template-columns: 1fr;
   }
-}
-@media screen and (max-width: 1000px) {
   article {
       padding: 10px;
   }
+  .suli {
+        width: 100%;
+        height: auto;
+    }
 }
+

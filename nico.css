@@ -9,54 +9,53 @@ body {
 }
 
 header {
-    grid-area:h;
-    background-image: url('kepek/footer.png');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    padding: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
-
+  grid-area:h;
+  background-image: url('kepek/footer.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 .header-container {
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  header h1 {
-    color: #1bd646;
-    text-shadow: 0 0 10px rgb(9, 255, 0);
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  
-  #menu {
-    grid-area:n;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 10px;
-  }
-  
-  #menu a {
-    text-decoration: none;
-    color: #1bd646;
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-  }
-  
-  #menu a:hover {
-    background-color: #15ff00;
-    box-shadow: 0 0 12px rgba(9, 255, 0, 0.6);
-    color: #215324;
-  }
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  color: #1bd646;
+  text-shadow: 0 0 10px rgb(9, 255, 0);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+#menu {
+  grid-area:n;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #1bd646;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#menu a:hover {
+  background-color: #15ff00;
+  box-shadow: 0 0 12px rgba(9, 255, 0, 0.6);
+  color: #215324;
+}
 
 .uj-container {
     display: grid;
@@ -148,9 +147,24 @@ footer {
     article{
       padding: 15px;
     }
-  }
-  @media screen and (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "a"
+            "j"
+            "f";
+    }
+    #menu {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
     .section-content {
         grid-template-columns: 1fr;
+    }
+    .suli {
+        width: 100%;
+        height: auto;
     }
   }

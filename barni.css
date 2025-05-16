@@ -179,11 +179,34 @@ h2{
 }
 @media screen and (max-width: 1000px) {
   .side-nav{
-    opacity: 0;
+    display: none;
   }
+  main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "a"  
+            "f";
+    }
+    
 }
 @media screen and (max-width: 800px) {
   article{
     padding: 15px;
+  }
+  #menu {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .suli {
+        width: 100%;
+        height: auto;
+    }
+  .content li:hover{
+    transform: scale(1.0);
+  }
+  .content:hover{
+    transform: scale(1.0);
   }
 }
